@@ -1,0 +1,36 @@
+{
+  "name": "SerhiiLytviak-goit-js-hw-09-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "dev": "webpack serve --mode=development",
+    "prod": "webpack serve --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerhiiLytviak/SerhiiLytviak-goit-js-hw-09-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SerhiiLytviak/SerhiiLytviak-goit-js-hw-09-webpack/issues"
+  },
+  "homepage": "https://github.com/SerhiiLytviak/SerhiiLytviak-goit-js-hw-09-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
